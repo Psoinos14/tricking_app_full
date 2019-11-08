@@ -1,0 +1,7 @@
+@day_and_times.map do |day_and_time|
+  { ID: day_and_time.id,
+    gym_name: day_and_time.gym.name,
+    date_time: day_and_time.friendly_datetime,
+    attendees: day_and_time.users
+  }
+end

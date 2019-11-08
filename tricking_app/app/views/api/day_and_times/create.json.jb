@@ -1,0 +1,7 @@
+{
+  gym_name: @day_and_time.gym.name,
+  date_time: @day_and_time.friendly_datetime,
+}
+
+# delete the bad data,
+# migration to get rid of day column

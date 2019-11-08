@@ -1,0 +1,5 @@
+{
+  datetime: @day_and_time.datetime,
+  gym_id: @day_and_time.gym_id,
+  user_id: @day_and_time.user_id
+}
